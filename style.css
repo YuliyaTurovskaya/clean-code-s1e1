@@ -36,7 +36,7 @@
 .main__task, .main__field-add {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .main__block-add {
@@ -137,7 +137,7 @@
 }
 
 .main__field-task {
-  width: 226px
+  width: 226px;
 }
 
 .main__button-img {
@@ -151,19 +151,19 @@
 }
 
 /* Completed */
-ul#completed-tasks label {
-  text-decoration: line-through
+/* ul#completed-tasks label {
+  text-decoration: line-through;
   color: #888;
-}
+} */
 
 /* Edit Task */
 .main__field-task {
-  display: none
+  display: none;
 }
 
 ul .main__block-edit input[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 ul .main__block-edit label {
