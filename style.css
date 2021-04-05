@@ -129,6 +129,7 @@
   align-items: center;
 }
 
+.main__task,
 .main__checkbox-task,
 .main__label-task,
 .main__field-task,
@@ -140,6 +141,7 @@
   margin: 0 10px;
 }
 
+.main__task,
 .main__label-task {
   padding-left: 10px;
   box-sizing: border-box;
