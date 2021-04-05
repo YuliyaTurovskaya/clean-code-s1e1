@@ -44,16 +44,16 @@
 }
 
 .main__block {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .main__block-item, .main__title {
-    list-style:none;
+    list-style: none;
 }
 
  .main__field-task, .main__field-add, .main__checkbox-task, .main__button, .main__button_edit, .main__button_delete{
-  outline:none;
+  outline: none;
 }
 
 .main__button, .main__button_edit, .main__button_delete {
@@ -158,14 +158,14 @@ ul#completed-tasks label {
 
 /* Edit Task */
 .main__field-task {
-  display:none
+  display: none
 }
 
 ul .main__block-edit input[type=text]{
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 ul .main__block-edit label {
-  display:none;
+  display: none;
 }
