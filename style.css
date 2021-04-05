@@ -164,17 +164,17 @@
 }
 
 /* Completed */
-/* ul#completed-tasks label {
+ul#completed-tasks label{
   text-decoration: line-through;
   color: #888;
-} */
+}
 
 /* Edit Task */
 .main__field-task {
   display: none;
 }
 
-ul .main__block-edit input[type=text] {
+ul .main__block-edit .main__field-task {
   display: inline-block;
   width: 224px;
 }

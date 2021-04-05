@@ -36,6 +36,7 @@ var createNewTaskElement=function(taskString){
     label.className='main__lable-task';
     label.classList.add('main__task');
 
+
     listItem.classList.add('main__block-item');
     deleteButton.classList.add('main__button_delete')
     deleteButtonImg.classList.add('main__button-img')
@@ -79,7 +80,8 @@ var addTask=function(){
 
     taskInput.value="";
 
-    // listItem.classList.toggle("main__task");
+
+
 }
 
 
@@ -110,6 +112,7 @@ var editTask=function(){
 
     //toggle .editmode on the parent.
     listItem.classList.toggle("main__block-edit");
+
 };
 
 
