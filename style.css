@@ -33,7 +33,8 @@
   margin: 0 auto 0;
 }
 
-.main__task, .main__field-add {
+.main__task,
+.main__field-add {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -48,15 +49,23 @@
   padding: 0px;
 }
 
-.main__block-item, .main__title {
+.main__block-item,
+.main__title {
     list-style: none;
 }
 
- .main__field-task, .main__field-add, .main__checkbox-task, .main__button, .main__button_edit, .main__button_delete {
+ .main__field-task,
+ .main__field-add,
+ .main__checkbox-task,
+ .main__button,
+ .main__button_edit,
+ .main__button_delete {
   outline: none;
 }
 
-.main__button, .main__button_edit, .main__button_delete {
+.main__button,
+.main__button_edit,
+.main__button_delete {
   background: none;
   border: 0px;
   color: #888;
@@ -81,7 +90,8 @@
   text-transform: uppercase;
 }
 
-.main__field-task, .main__field-add {
+.main__field-task,
+.main__field-add {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
