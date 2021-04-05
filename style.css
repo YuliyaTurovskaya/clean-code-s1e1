@@ -31,7 +31,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.block-add {
+.main__block-add {
   display: flex;
 }
 ul {
@@ -138,11 +138,11 @@ ul li input[type=text] {
   display:none
 }
 
-ul li.edit-mode input[type=text] {
+ul .main__block-edit input[type=text] {
   display:inline-block;
   width:224px
 }
 
-ul li.edit-mode label {
+ul .main__block-edit label {
   display:none;
 }
