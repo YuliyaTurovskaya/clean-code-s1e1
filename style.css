@@ -52,7 +52,7 @@
     list-style: none;
 }
 
- .main__field-task, .main__field-add, .main__checkbox-task, .main__button, .main__button_edit, .main__button_delete{
+ .main__field-task, .main__field-add, .main__checkbox-task, .main__button, .main__button_edit, .main__button_delete {
   outline: none;
 }
 
@@ -71,7 +71,7 @@
 }
 
 /* Heading */
-.main__title{
+.main__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -161,7 +161,7 @@ ul#completed-tasks label {
   display: none
 }
 
-ul .main__block-edit input[type=text]{
+ul .main__block-edit input[type=text] {
   display: inline-block;
   width: 224px
 }
